@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <title>Admin</title>
+    <link rel="stylesheet" href="../static/css/homestyle.css" />
+  </head>
+  <body>
+    <div
+      style="text-align: center; background-image: url(../static/css/back.jpg)"
+    >
+      <img
+        src="../static/css/logo.jpg"
+        alt="headerlogo"
+        text-align="center"
+        width="50%"
+      />
+    </div>
+    <form
+      class="box1"
+      action="sendmail"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <p>
+        <h2 style="color:#611e19">Hello Admin </h2>
+
+        <br />
+
+        <input type="file" accept=".csv" name="datacsv" />
+         <p>Upload Results Here(Csv)</p>
+        <br />
+
+        <input type="submit" value="Send Results" />
+        <h4 style="color: red">{{ error }}</h4>
+      </p>
+    </form>
+  </body>
+</html>

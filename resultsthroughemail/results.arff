@@ -1,0 +1,25 @@
+@relation results
+
+@attribute '﻿  ID' numeric
+@attribute NAME {SANTHOSH,ROHITH,VAMSHI,DINESH}
+@attribute BRANCH {CSE}
+@attribute SECTION {A}
+@attribute SUB1 {WE}
+@attribute S1 numeric
+@attribute SUB2 {DS}
+@attribute S2 numeric
+@attribute SUB3 {IOT}
+@attribute S3 numeric
+@attribute SUB4 {MEFA}
+@attribute S4 numeric
+@attribute SUB5 {BDAP}
+@attribute S5 numeric
+@attribute TOTAL numeric
+@attribute STATUS {FAIL,PASS}
+@attribute EMAIL {madiresanthosh210@gmail.com,rohithreddyporeddy@gmail.com,vamshidharr0@gmail.com,vamshidhar126@gmail.com}
+
+@data
+1001,SANTHOSH,CSE,A,WE,90,DS,78,IOT,34,MEFA,67,BDAP,97,366,FAIL,madiresanthosh210@gmail.com
+1002,ROHITH,CSE,A,WE,86,DS,54,IOT,46,MEFA,39,BDAP,67,295,PASS,rohithreddyporeddy@gmail.com
+1003,VAMSHI,CSE,A,WE,78,DS,46,IOT,69,MEFA,89,BDAP,89,319,PASS,vamshidharr0@gmail.com
+1004,DINESH,CSE,A,WE,50,DS,46,IOT,90,MEFA,34,BDAP,67,304,FAIL,vamshidhar126@gmail.com
